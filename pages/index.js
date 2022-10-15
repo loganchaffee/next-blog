@@ -22,7 +22,6 @@ export default function Home({ allPostsData }) {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-
             <section className={utilStyles.headingMd}>
                 <p>I am a web dev. This is my blog</p>
                 <p>
@@ -30,7 +29,6 @@ export default function Home({ allPostsData }) {
                 <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
                 </p>
             </section>
-
             <section>
                 <h2 className={utilStyles.headingLg}>Blog</h2>
                 <ul className={utilStyles.list}>    
